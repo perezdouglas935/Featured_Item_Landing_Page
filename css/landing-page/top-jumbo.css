@@ -1,0 +1,87 @@
+#top-jumbo{
+    padding: 0px 0 400px;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 34%, #d07aff 70%, #fcb3f1 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ffffff 0%,#ffffff 34%,#d07aff 70%,#fcb3f1 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ffffff 0%,#ffffff 34%,#d07aff 70%,#fcb3f1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#top-jumbo:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#top-jumbo .left-side{
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+#top-jumbo .left-side .large-number{
+    font-size: 300px;
+    font-weight: 700;
+    opacity: .15;
+    color: #4C44C1;
+    position: relative;
+    left: -23px;
+    top: 45px;
+    z-index: 1;
+}
+#top-jumbo .left-side .info-container{
+    position: relative;
+    top: -41px;
+}
+#top-jumbo .left-side .info-container h1{
+    color: #4C44C1;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+#top-jumbo .left-side .info-container p{
+    color: #4C44C1;
+    line-height: 1.8;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+#top-jumbo .left-side .info-container .email-area{
+    background: #fff;
+    border-radius: 35px;
+    -webkit-box-shadow: 0px 11px 5px -5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 11px 5px -5px rgba(0,0,0,0.2);
+    box-shadow: 0px 11px 5px -5px rgba(0,0,0,0.2);
+    display: inline-block;
+    padding: 8px;
+}
+#top-jumbo .left-side .info-container .email-area .far{
+    font-size: 2rem;
+    position: relative;
+    top: 7px;
+    margin-left: 15px;
+    color: grey;
+}
+#top-jumbo .left-side .info-container .email-area input[type="email"]{
+    background: #fff;
+    color: grey;
+    border: none;
+    padding: 10px;
+    font-size: 1.4rem;
+    width: 240px;
+    text-align: left;
+}
+#top-jumbo .left-side .info-container .email-area button{
+    background: #4C44C1;
+    padding: 20px 50px;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+#top-jumbo .right-side{
+    width: 60%;
+    display: inline-block;
+    float: left;
+}
+#top-jumbo .right-side img{
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
